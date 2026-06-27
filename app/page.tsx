@@ -1,4 +1,5 @@
 import { NavigationBar } from "@/components/feature/navigation-bar";
+import { Jumbotron } from "@/components/feature/jumbotron";
 
 export default function Home() {
   return (
@@ -7,7 +8,10 @@ export default function Home() {
       {/* Navigation Bar */}
       <NavigationBar />
       {/* Main Content */}
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-[#05050d] sm:items-start">
+      <main className="flex flex-1 w flex-col items-center justify-between w-full h-full  bg-[#bfbfdf] sm:items-start">
+      {/* Jumbotron */}
+      <Jumbotron />
+      <Jumbotron />
       </main>
     </div>
   );
