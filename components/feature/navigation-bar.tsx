@@ -22,7 +22,7 @@ export function NavigationBar() {
   };
   return (
     <NavigationMenu
-      className="rounded-none absolute top-0 right-0 z-50 text-white py-4 px-11 pb-5 bg-transparent border-b-2 border-white/10 shadow-[0_4px_30px_rgba(0,0,0,0.1)] backdrop-blur-[2.2px] font-inter font-medium"
+      className="rounded-none top-0 right-0 left-0 z-50 text-white py-4 px-11 pb-5 bg-transparent border-b-2 border-white/10 shadow-[0_4px_30px_rgba(0,0,0,0.1)] backdrop-blur-[2.2px] font-inter font-medium sticky"
     >
       {/* Menu List */}
       <NavigationMenuList className="flex items-center justify-between gap-4">
@@ -44,19 +44,19 @@ export function NavigationBar() {
           />
         </NavigationMenuItem>
         <NavigationMenuItem className="flex items-center justify-center gap-11">
-          <NavigationMenuLink render={<Link href="#">Home</Link>} />
-          <NavigationMenuLink render={<Link href="#">About</Link>} />
-          <NavigationMenuLink render={<Link href="#">Skills</Link>} />
-          <NavigationMenuLink render={<Link href="#">Projects</Link>} />
-          <NavigationMenuLink render={<Link href="#">Contact</Link>} />
+          <NavigationMenuLink className="text-[12px]" render={<Link href="#">Home</Link>} />
+          <NavigationMenuLink className="text-[12px]" render={<Link href="#">About</Link>} />
+          <NavigationMenuLink className="text-[12px]" render={<Link href="#">Skills</Link>} />
+          <NavigationMenuLink className="text-[12px]" render={<Link href="#">Projects</Link>} />
+          <NavigationMenuLink className="text-[12px]" render={<Link href="#">Contact</Link>} />
           {/* Sharinggan Icon */}
           <Image
             onClick={handleHover}
             className="transition-transform duration-500 ease-in-out hover:rotate-360"
             src="/assets/Sharinggan-Image.png"
             alt="Sharingan Icon"
-            width={45}
-            height={45}
+            width={35}
+            height={35}
             priority
           />
           <audio

@@ -4,7 +4,7 @@ import { Jumbotron } from "@/components/feature/jumbotron";
 export default function Home() {
   return (
     // Body
-    <div className="flex flex-col flex-1 items-center justify-center bg-[#05050d] font-inter">
+    <div className="flex flex-col flex-1 items-center justify-center bg-[#05050d] font-inter relative">
       {/* Navigation Bar */}
       <NavigationBar />
       {/* Main Content */}

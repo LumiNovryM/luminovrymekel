@@ -18,7 +18,7 @@ export default function SharinganButton() {
     <>
       <Button
         onClick={handleHover}
-        className="group w-56 mt-6 px-6 py-6 border-[3px] hover:bg-[#0c0a1b] bg-[#05040c] border-[#351d4f] text-[#b48fd5] flex items-center justify-between"
+        className="group max-w-48 mt-6 px-4 py-[1.3rem] border-2 hover:bg-[#0c0a1b] bg-[#05040c] border-[#351d4f] text-[#b48fd5] flex items-center justify-between gap-2"
       >
         View My Work
         <Image
