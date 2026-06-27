@@ -15,6 +15,7 @@ export function Jumbotron() {
 
   return (
     <div
+    id="home"
       className="text-white py-24 px-52 w-full h-screen relative -top-20"
       style={{
         backgroundImage: `url(${bg.src})`,

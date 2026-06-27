@@ -44,8 +44,8 @@ export function NavigationBar() {
           />
         </NavigationMenuItem>
         <NavigationMenuItem className="flex items-center justify-center gap-11">
-          <NavigationMenuLink className="text-[12px]" render={<Link href="#">Home</Link>} />
-          <NavigationMenuLink className="text-[12px]" render={<Link href="#">About</Link>} />
+          <NavigationMenuLink className="text-[12px]" render={<Link href="#home">Home</Link>} />
+          <NavigationMenuLink className="text-[12px]" render={<Link href="#about">About</Link>} />
           <NavigationMenuLink className="text-[12px]" render={<Link href="#">Skills</Link>} />
           <NavigationMenuLink className="text-[12px]" render={<Link href="#">Projects</Link>} />
           <NavigationMenuLink className="text-[12px]" render={<Link href="#">Contact</Link>} />
