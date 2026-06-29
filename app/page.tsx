@@ -1,6 +1,7 @@
 import { NavigationBar } from "@/components/feature/navigation-bar";
 import { Jumbotron } from "@/components/feature/jumbotron";
 import {AboutMe} from "@/components/feature/about-me";
+import { Skills } from "@/components/feature/skills";
 
 export default function Home() {
   return (
@@ -14,6 +15,8 @@ export default function Home() {
       <Jumbotron />
       {/* About Me Section */}
       <AboutMe />
+      {/* Skills Section */}
+      <Skills />
       </main>
     </div>
   );

@@ -31,11 +31,12 @@ export function AboutMe() {
           alt="Lumi Novri Meckel"
           width={1000}
           height={1000}
+          quality={100}
           priority
         />
       </div>
       <div className="aboutme">
-        <p className="text-[#761dc2] text-xl my-4 flex items-center gap-2 font-medium">
+        <p className="text-[#761dc2] text-[16px] my-4 flex items-center gap-2 font-bold">
           {" "}
           <Image
             className="transition-transform duration-500 ease-in-out hover:rotate-360"
